@@ -7,7 +7,7 @@ first comes out of it first. There are other kinds of buffers like the LIFO (las
 shared memory. The choice of a buffer architecture depends on the application to be solved.
 
  Every memory in which the data word that is written in first also comes out first when the memory is read is a first-in first-out
- memory. Figure 1 illustrates the data flow in a FIFO. There are three kinds of FIFO:
+ memory. Figure below illustrates the data flow in a FIFO. There are three kinds of FIFO:
  
  • Shift register – FIFO with an invariable number of stored data words and, thus, the necessary synchronism between
  the read and the write operations because a data word must be read every time one is written.
