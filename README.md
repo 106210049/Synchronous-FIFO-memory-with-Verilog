@@ -81,9 +81,6 @@ In a circular FIFO concept, the memory address of the incoming data is in the wr
  ### Architecture:
  <img src="image/Block_diagram.png" width="700">  
 
- ### Synchronous of Flags:
-<img src="image/Signals_FIFO.png" width="900">  
-
 ### FIFO Architecture Analysis:
 
 #### 1. Read/Write pointer:
