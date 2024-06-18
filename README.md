@@ -292,4 +292,7 @@ module Synchronous_FiFo_memmory #(
 
 ### Log file:
 
- <img src="image/LOGFILE.png" width="1000">  
+<img src="image/LOGFILE.png" width="1000">  
+
+
+My code in EDA Playground: [Synchronous FIFO memory](https://edaplayground.com/x/Mg_k)
