@@ -293,3 +293,5 @@ module Synchronous_FiFo_memmory #(
 
 
 My code in EDA Playground: [Synchronous FIFO memory](https://edaplayground.com/x/Mg_k)
+
+lec -XL -Dofile wlec_fifo_rtl2g1 -Logfile lec.log2
