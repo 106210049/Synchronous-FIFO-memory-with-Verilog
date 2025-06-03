@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="JPSmPimAzrU0CQO3RgJz-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JPSmPimAzrU0CQO3RgJz-1" value="Syn FIFO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="160" width="160" height="240" as="geometry" />
         </mxCell>
         <mxCell id="JPSmPimAzrU0CQO3RgJz-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
