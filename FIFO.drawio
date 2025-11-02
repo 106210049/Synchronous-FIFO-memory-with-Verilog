@@ -105,10 +105,10 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="hEtShoyFMJtsaYWFDVOJ-1" value="Write Pointer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hEtShoyFMJtsaYWFDVOJ-1" value="Write_Pointer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="160" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="hEtShoyFMJtsaYWFDVOJ-2" value="Read Pointer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hEtShoyFMJtsaYWFDVOJ-2" value="Read_Pointer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="320" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hEtShoyFMJtsaYWFDVOJ-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -158,6 +158,9 @@
             <mxPoint x="80" y="389.86" as="sourcePoint" />
             <mxPoint x="120" y="389.86" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="hEtShoyFMJtsaYWFDVOJ-11" value="Memoy_State" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="160" width="120" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
