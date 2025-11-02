@@ -106,7 +106,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="P3h1gQRYi1q1DP4MgwhE-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="110" y="80" width="630" height="400" as="geometry" />
+          <mxGeometry x="40" y="80" width="700" height="400" as="geometry" />
         </mxCell>
         <mxCell id="hEtShoyFMJtsaYWFDVOJ-1" value="Write_Pointer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="240" width="120" height="80" as="geometry" />
