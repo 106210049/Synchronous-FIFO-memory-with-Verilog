@@ -101,7 +101,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="56xlouGCuvEwWvK5r2HG" name="High Level Block Design">
-    <mxGraphModel dx="496" dy="267" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="595" dy="321" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -275,6 +275,12 @@
         </mxCell>
         <mxCell id="hEtShoyFMJtsaYWFDVOJ-33" value="w_prt[4:0]" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="280" y="200" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hEtShoyFMJtsaYWFDVOJ-35" value="fifo_r_en" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="300" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hEtShoyFMJtsaYWFDVOJ-36" value="r_prt[4:0]" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="320" width="50" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
