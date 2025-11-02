@@ -1,0 +1,135 @@
+xrun: 22.09-s004: (c) Copyright 1995-2022 Cadence Design Systems, Inc.
+TOOL:	xrun	22.09-s004: Started on Nov 02, 2025 at 10:48:32 +07
+xrun
+	-sv
+	-f filelist.f
+		+incdir+./TB
+		RTL/Synchronous_FIFO_memory.v
+		TB/package.sv
+		TB/testbench.sv
+	-access +rwc
+	-gui
+file: TB/package.sv
+	package worklib.fifo_pkg:sv
+		errors: 0, warnings: 0
+file: TB/testbench.sv
+package fifo_pkg;
+               |
+xmvlog: *W,RECOME (./TB/package.sv,1|15): recompiling design unit worklib.fifo_pkg:sv.
+	First compiled from line 1 of TB/package.sv.
+	package worklib.fifo_pkg:sv
+		errors: 0, warnings: 1
+	program worklib.test:sv
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		fifo_pkg
+		$unit_0x070151eb
+		tb_top
+xmelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.test:sv <0x5eec86b8>
+			streams:   1, words:  1345
+		worklib.Memory_State:v <0x139b9660>
+			streams:   8, words:  1948
+		worklib.Memory_Array:v <0x3414fcdc>
+			streams:   4, words:  1078
+		worklib.Read_pointer:v <0x15e0ce2e>
+			streams:   2, words:   435
+		worklib.Write_pointer:v <0x0eec435b>
+			streams:   2, words:   435
+		worklib.Synchronous_FIFO_memory:v <0x208bf3e3>
+			streams:   0, words:     0
+		worklib.tb_top:sv <0x3fc9d702>
+			streams:  14, words:  3634
+		worklib.fifo_if:sv <0x0710a186>
+			streams:  64, words: 51830
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                     Instances  Unique
+		Modules:                     6       6
+		Interfaces:                  1       1
+		Programs:                    1       1
+		Verilog packages:            1       1
+		Registers:                  58      88
+		Scalar wires:               18       -
+		Vectored wires:              5       -
+		Always blocks:               8       8
+		Initial blocks:              4       4
+		Parallel blocks:             2       2
+		Cont. assignments:           3       6
+		Pseudo assignments:         10      10
+		Compilation units:           1       1
+		SV Class declarations:       7       7
+		SV Class specializations:    7       7
+		Simulation timescale:      1ps
+	Writing initial simulation snapshot: worklib.tb_top:sv
+xmsim: *W,NOMTDGUI: Multi-Threaded Dumping is disabled for interactive debug mode.
+SVSEED default: 1
+xmsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /mnt/CADENCE/xcelium_2209/tools/xcelium/files/xmsimrc
+xcelium> database -open waves -into waves.shm -default
+Created default SHM database waves
+xcelium> probe -create -shm tb_top.dut.clk tb_top.dut.data_in tb_top.dut.data_out tb_top.dut.fifo_empty tb_top.dut.fifo_full tb_top.dut.fifo_overflow_flag tb_top.dut.fifo_r_en tb_top.dut.fifo_underflow_flag tb_top.dut.fifo_w_en tb_top.dut.r_en tb_top.dut.r_ptr tb_top.dut.rst_n tb_top.dut.w_en tb_top.dut.w_ptr
+Created probe 1
+xcelium> run 200
+stop -create -name Randomize -randomize
+Created stop Randomize
+
+[MON] WRITE captured: data_in = 143
+[SB] WRITE logged: data_in = 143
+[MON] WRITE captured: data_in = 76
+[SB] WRITE logged: data_in = 76
+[MON] WRITE captured: data_in = 76
+[SB] WRITE logged: data_in = 76
+[MON] WRITE captured: data_in = 253
+[SB] WRITE logged: data_in = 253
+[MON] WRITE captured: data_in = 132
+[SB] WRITE logged: data_in = 132
+[MON] WRITE captured: data_in = 26
+[SB] WRITE logged: data_in = 26
+[MON] WRITE captured: data_in = 83
+[SB] WRITE logged: data_in = 83
+[MON] WRITE captured: data_in = 152
+[SB] WRITE logged: data_in = 152
+[MON] WRITE captured: data_in = 130
+[SB] WRITE logged: data_in = 130
+[MON] WRITE captured: data_in = 230
+[SB] WRITE logged: data_in = 230
+[MON] READ captured: data_out = 143
+[SB] MATCH: expected=143, got=143 
+[MON] WRITE captured: data_in = 118
+[SB] WRITE logged: data_in = 118
+[MON] WRITE captured: data_in = 30
+[SB] WRITE logged: data_in = 30
+[MON] WRITE captured: data_in = 231
+[SB] WRITE logged: data_in = 231
+[MON] WRITE captured: data_in = 187
+[SB] WRITE logged: data_in = 187
+[MON] READ captured: data_out = 76
+[SB] MATCH: expected=76, got=76 
+[MON] READ captured: data_out = 76
+[SB] MATCH: expected=76, got=76 
+[MON] WRITE captured: data_in = 218
+[SB] WRITE logged: data_in = 218
+[MON] WRITE captured: data_in = 141
+[SB] WRITE logged: data_in = 141
+[MON] WRITE captured: data_in = 68
+[SB] WRITE logged: data_in = 68
+[MON] WRITE captured: data_in = 243
+[SB] WRITE logged: data_in = 243
+[MON] READ captured: data_out = 253
+[SB] MATCH: expected=253, got=253 
+[MON] WRITE captured: data_in = 209
+[SB] WRITE logged: data_in = 209
+[MON] WRITE captured: data_in = 209
+[SB] WRITE logged: data_in = 209
+Ran until 200 PS + 0
+xcelium> 

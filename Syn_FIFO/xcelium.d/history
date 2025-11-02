@@ -1,0 +1,13 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(01Nov2025:17:01:27):( xrun -sv -f filelist.f -access +rwc -gui )
+s2::(01Nov2025:17:16:16):( xrun -sv -f filelist.f -access +rwc -gui )
+s3::(01Nov2025:17:18:03):( xrun -sv -f filelist.f -access +rwc -gui )
+s4::(01Nov2025:17:18:16):( xrun -sv -f filelist.f -access +rwc -gui )
+s5::(01Nov2025:17:18:42):( xrun -sv -f filelist.f -access +rwc -gui )
+s6::(01Nov2025:17:20:03):( xrun -sv -f filelist.f -access +rwc -gui )
+s7::(01Nov2025:17:20:55):( xrun -sv -f filelist.f -access +rwc -gui )
+s8::(01Nov2025:17:22:05):( xrun -sv -f filelist.f -access +rwc -gui )
+s9::(02Nov2025:10:48:33):( xrun -sv -f filelist.f -access +rwc -gui )
