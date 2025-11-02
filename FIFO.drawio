@@ -282,6 +282,18 @@
         <mxCell id="hEtShoyFMJtsaYWFDVOJ-36" value="r_prt[4:0]" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="280" y="320" width="50" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="hEtShoyFMJtsaYWFDVOJ-37" value="r_en" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hEtShoyFMJtsaYWFDVOJ-38" value="fifo_full" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="35" y="300" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hEtShoyFMJtsaYWFDVOJ-39" value="clk" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="45" y="320" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hEtShoyFMJtsaYWFDVOJ-40" value="rst_n" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="45" y="340" width="40" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
